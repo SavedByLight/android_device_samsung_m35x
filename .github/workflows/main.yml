@@ -120,6 +120,6 @@ jobs:
         files: |
           twrp/out/target/product/m35x/recovery.img
           twrp/out/target/product/m35x/recovery.tar
-        name: TWRP Release Build for Samsung Galaxy M35 5G - SM-M356B (m35) // ${{ env.BUILD_DATE }}
+        name: TWRP Release Build for Samsung Galaxy M35 5G - SM-M356B (m35x) // ${{ env.BUILD_DATE }}
         tag_name: ${{ github.run_id }}
         body_path: changelog.txt
